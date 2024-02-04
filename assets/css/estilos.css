@@ -13,6 +13,7 @@ ul a{
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     text-decoration: none;
+    color: #8e42a5;
 }
 ul a:hover{
     color: #000;
@@ -29,7 +30,7 @@ ul a:hover{
     font-size: 1.5em;
     margin: 2px;
     padding: 5px;
-    color: #d84c4c;
+    color: #8e42a5;
 }
 .ads p{
     font-family: 'Montserrat', sans-serif;
@@ -165,6 +166,8 @@ align-items: center;
 }
  
 .footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
     display: flex;
     margin: 0px;
     padding: 3px;
@@ -172,6 +175,11 @@ align-items: center;
     align-items: center;
     padding: 10px;
     background-color: #e5c0d9;
+}
+
+.footer p{
+    padding: 5px;
+    margin: 5px;
 }
 
 
