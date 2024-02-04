@@ -4,47 +4,118 @@
     border:0;  
 }
 
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000;
+}
+ul a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+ul a:hover{
+    color: #000;
+}
 .header{
     grid-area: hd;
     background-color: #e5c0d9;
-    height: 100%;
-  
-}
-.header img{
-    display: flex;
-    align-self: center;
+    height: 100%;  
 }
 
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+   padding: 3%;
+    padding-bottom: 0;   
+}
 
 .menu_prin{
     grid-area: mp;
-    background-color: #66f;
+    background-color: #e5c0d9;
 
 }
 .menu_lat{
     grid-area: ml;
-    background-color: #66f;
+    background-color: #e5c0d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.menu_lat ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .contenido{
     grid-area: ct;
-    background-color: #66f;
+    background-color: #e5c0d9;
 }
 .ads{
     grid-area: ad;
-    background-color: #66f;
+    background-color: #e5c0d9;
 }
 .footer{
     grid-area: ft;
-    background-color: #66f;
+    background-color: #e5c0d9;
 }
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    border: solid 1px;
+    margin: 5px;
+    padding: 5px;    
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-body{
+    flex-grow: 1;
+    flex-shrink: 1;     
+}
+.card-body p{
+    text-align: center;
+    padding: 1px;
+
+}
+.card-body img{
+    width: 100%;
+    height: 100%;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    justify-content: center;   
+}
+.card-footer p{
+align-items: center;
+}
+
 
 .grid-container{
     height: 100vh;
     display: grid;
-    gap: 10px;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    gap: 0px;    
     grid-template-areas: 
     "hd hd hd"
-    "mp mp mp"
     "ml ct ad"
     "ft ft ft";
 }
