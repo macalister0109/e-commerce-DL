@@ -17,6 +17,36 @@ ul a{
 ul a:hover{
     color: #000;
 }
+.ads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.ads h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    margin: 2px;
+    padding: 5px;
+    color: #d84c4c;
+}
+.ads p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #000;
+}
+.ads .foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.ads .foto img{
+    width: 50%;
+}
+
 .header{
     grid-area: hd;
     background-color: #e5c0d9;
@@ -105,6 +135,21 @@ ul a:hover{
 }
 .card-footer p{
 align-items: center;
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #c82da6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.my-button:hover {
+  background-color: #772958;
+}
+.my-button:active {
+  background-color: #c82f53;
 }
 
 
