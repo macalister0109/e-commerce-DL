@@ -152,6 +152,28 @@ align-items: center;
   background-color: #c82f53;
 }
 
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #e5c0d9;
+}
+.social .rrss {
+  width: 10em;
+}
+ 
+.footer{
+    display: flex;
+    margin: 0px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #e5c0d9;
+}
+
 
 .grid-container{
     height: 100vh;
